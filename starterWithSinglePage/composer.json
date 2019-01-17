@@ -1,0 +1,17 @@
+{
+    "name": "loggcity/plugin-starter",
+    "description": "Scaffold of an OOP WordPress plugin starter with single page for a simple plugin creation.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Adewale Adegoroye",
+            "email": "adewale.a@loggcity.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Ldinc\\": "./lib"}
+    }
+}
