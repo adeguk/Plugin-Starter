@@ -50,7 +50,7 @@ class Admin extends BaseController {
 			'capability'    => 'manage_options',
 			'menu_slug'     => 'plugin_starter',
 			'callback'      => array( $this->callbacks, 'AdminDashboard' ),
-			'icon_url'      => 'dashicons-palmtree',
+			'icon_url'      => 'dashicons-store',
 			'position'      => 20
 		]];
 	}
